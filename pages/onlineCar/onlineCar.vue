@@ -1,6 +1,11 @@
 <template>
   <view>
     <!-- 右侧的字母加导航 -->
+    <!-- 
+       需要完善的功能：
+        滚动的时候也要显示当前的字母
+      -->
+     
    <view :class="[isIphoneX?'isIphoneStyle':'right-nav']">
          <view :class="{active:active}" style="font-size: 12px;" @click="hadleClickTop">选</view> 
          <view :class="[isIphoneX?'isIphoneStyleCode':'code',activeIndex == index?'active':'']" v-for="(item,index) in cityList" :key="item.code" :data-code="item.code" :data-index="index" @click="getCurrentCode">

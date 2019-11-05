@@ -1,12 +1,16 @@
 <template>
   <view>
  	    <!-- 选择列表 -->
+      <!-- 
+        需要完善的功能：
+        点击视频进入详情页面
+       -->
        <view class="carfans-top">
             <view :class="['select-list',activeIndex == index?'active':'']" v-for="(item,index) in selectList" :key="index" :data-index="index" @click="handleSelecList(index)">
                 {{item.name}}
              </view>
        </view>
-       <!-- 用户评价 -->
+       <!-- 用户评价 -->·
          <view class="user-list">
              <view class="user-avatar"><image src="../../static/img/heaed.png" mode=""></image></view>
              <view class="user-right">
