@@ -1,16 +1,54 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  {
+  	"path": "pages/carFans/carFans",
+  	"style": {
+  		"navigationBarTitleText": "懂车帝"
+  	}
+  },
+  {
+  	"path": "pages/onlineCar/onlineCar",
+  	"style": {
+  		"navigationBarTitleText": "懂车帝"
+  	}
+  },
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "懂车帝"
 			}
 		}
+
+
 	],
+  "tabBar": {
+      "color": "#0C0C0C",
+      "selectedColor": "#FCE41C",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [{
+          "pagePath": "pages/index/index",
+          "iconPath": "static/img/home.png",
+          "selectedIconPath": "static/img/home-select.png",
+          "text": "首页"
+      }, {
+          "pagePath": "pages/onlineCar/onlineCar",
+          "iconPath": "static/img/myCar.png",
+          "selectedIconPath": "static/img/myCar-select.png",
+          "text": "选车"
+      }, {
+          "pagePath": "pages/carFans/carFans",
+          "iconPath": "static/img/circle.png",
+          "selectedIconPath": "static/img/circle-select.png",
+          "text": "车友圈"
+      }
+      ]
+  },
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "懂车帝",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+    // "navigationStyle":"custom"
 	}
 }

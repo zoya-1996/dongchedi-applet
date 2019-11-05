@@ -1,0 +1,1 @@
+<view><view class="navigation"><block wx:for="{{nav}}" wx:for-item="item" wx:for-index="__i0__" wx:key="index"><view class="car-type"><image src="{{item.imgUrl}}" mode></image><view>{{item.name}}</view></view></block></view></view>

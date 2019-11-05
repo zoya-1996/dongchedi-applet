@@ -1,7 +1,7 @@
 <script>
 	export default {
 		onLaunch: function() {
-			console.log('App Launch')
+			
 		},
 		onShow: function() {
 			console.log('App Show')
@@ -14,4 +14,12 @@
 
 <style>
 	/*每个页面公共css */
+	    @import './common/uni.css';
+		  page {
+		        background-color: #FFFFFF;
+		        height: 100%;
+		        font-size: 28upx;
+		        line-height: 1.8;
+		    }
+
 </style>

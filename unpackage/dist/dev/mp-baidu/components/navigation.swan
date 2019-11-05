@@ -1,0 +1,1 @@
+<view><view class="navigation"><block s-for="{{nav}}" s-for-item="item" s-for-index="__i0__" s-key="index"><view class="car-type"><image src="{{item.imgUrl}}" mode></image><view>{{item.name}}</view></view></block></view></view>

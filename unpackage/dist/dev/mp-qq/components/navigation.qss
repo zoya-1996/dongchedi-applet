@@ -1,0 +1,18 @@
+.navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20rpx;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.navigation .car-type {
+  text-align: center;
+}
+.navigation .car-type image {
+  width: 64rpx;
+  height: 64rpx;
+}
+

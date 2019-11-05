@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "懂车帝",
+  "usingComponents": {
+    "top-nav": "/components/navigation"
+  }
+}

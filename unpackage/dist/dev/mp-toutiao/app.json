@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/carFans/carFans",
+    "pages/onlineCar/onlineCar",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "懂车帝",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#0C0C0C",
+    "selectedColor": "#FCE41C",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/home.png",
+        "selectedIconPath": "static/img/home-select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/onlineCar/onlineCar",
+        "iconPath": "static/img/myCar.png",
+        "selectedIconPath": "static/img/myCar-select.png",
+        "text": "选车"
+      },
+      {
+        "pagePath": "pages/carFans/carFans",
+        "iconPath": "static/img/circle.png",
+        "selectedIconPath": "static/img/circle-select.png",
+        "text": "车友圈"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

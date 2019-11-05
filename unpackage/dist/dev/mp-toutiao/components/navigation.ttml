@@ -1,0 +1,1 @@
+<view><view class="navigation"><block tt:for="{{nav}}" tt:for-item="item" tt:for-index="__i0__" tt:key="index"><view class="car-type"><image src="{{item.imgUrl}}" mode></image><view>{{item.name}}</view></view></block></view></view>
