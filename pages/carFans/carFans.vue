@@ -12,7 +12,7 @@
        </view>
        <!-- 用户评价 -->·
          <view class="user-list">
-             <view class="user-avatar"><image src="../../static/img/heaed.png" mode=""></image></view>
+             <view class="user-avatar"><image src="../../static/img/heaed.jpg" mode=""></image></view>
              <view class="user-right">
                <view class="user-name">Healer</view>
                <view class="user-time">7分钟前</view>
@@ -22,7 +22,7 @@
                  <view class="user-published-text">
                    <!-- 话题 -->         
                       <text class="content"> <text class="topic">#我的超话</text>秋意渐浓，一丝凉意给我们这一夏天燥热不安分的心带来了一份慰藉，然而，这一次简单的访谈又让我们的心重拾热情，这份热情正是来源于我们今天访谈的主人公—— 唐EV车主 Eric先生，他的一丝不苟和侃然正色深深的感染了我们。5800元的奋斗经历 成为我人生不可复制的财富说起今天的主角，我想用一句话来概括：“年少轻狂却不荒唐、执着坚持成就梦想！Eric先生现在是XX视觉创意工作室的CEO，可以说是90后有为的青年代表，现在的他有着幸福的家庭，心仪的事业，但是，他却尝尝会回忆起3年前，他刚刚创业时的日子。
-Eric先生是在2016年大学毕业，刚毕业时，他跟平常青年并无两样，也曾对生活有过迷茫和不满，但是，也就是在那时，他仅凭自己对艺术的满腔喜爱和视觉创意的满腔热情，手里拿着家里凑的5800元钱，和兄弟义无反顾的来到了深圳，开始了他们的创业生涯。
+Eric先生是在2016年大学毕业，刚毕业时	，他跟平常青年并无两样，也曾对生活有过迷茫和不满，但是，也就是在那时，他仅凭自己对艺术的满腔喜爱和视觉创意的满腔热情，手里拿着家里凑的5800元钱，和兄弟义无反顾的来到了深圳，开始了他们的创业生涯。
                       </text>
                  </view>
                   <!-- 图片或者视频 -->
@@ -46,7 +46,7 @@ Eric先生是在2016年大学毕业，刚毕业时，他跟平常青年并无两
          </view>
          <view class="clear"></view>
          <view class="user-list">
-            <view class="user-avatar"><image src="../../static/img/heaed.png" mode=""></image></view>
+            <view class="user-avatar"><image src="../../static/img/heaed.jpg" mode=""></image></view>
             <view class="user-right">
               <view class="user-name">Healer</view>
               <view class="user-time">7分钟前</view>

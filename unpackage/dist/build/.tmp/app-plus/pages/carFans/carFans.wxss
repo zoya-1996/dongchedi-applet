@@ -1,0 +1,142 @@
+.clear {
+  clear: both;
+}
+.active {
+  border: 2px solid #333;
+  color: #2f2f2f !important;
+  font-weight: bold;
+  border: 2rpx solid #2f2f2f !important;
+}
+.carfans-top {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.carfans-top .select-list {
+  padding: 5rpx 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #c5c5c5;
+  text-align: center;
+  margin: 10rpx 20rpx;
+  border-radius: 50rpx;
+  color: #878787;
+  font-weight: bold;
+}
+.user-list {
+  margin-top: 40rpx;
+}
+.user-list .user-avatar {
+  display: inline-block;
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50rpx;
+  background-color: #f2f2f2;
+  margin-left: 20rpx;
+}
+.user-list .user-avatar image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50rpx;
+  vertical-align: bottom;
+}
+.user-list .user-right {
+  display: inline-block;
+  margin-left: 20rpx;
+}
+.user-list .user-right .user-name {
+  color: #000;
+  font-weight: bold;
+}
+.user-list .user-right .user-time {
+  color: #b0b0b0;
+}
+.user-published-text {
+  padding: 10rpx 30rpx;
+  font-size: 16px;
+}
+.user-published-text .content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+.user-published-text .content .topic {
+  color: #007aff;
+  margin-right: 10rpx;
+}
+.user-showmap {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.user-showmap .user-showmap-left {
+  width: 408rpx;
+  height: 400rpx;
+  margin-right: 10rpx;
+  float: left;
+}
+.user-showmap .user-showmap-left image {
+  width: 100%;
+  height: 100%;
+}
+.user-showmap .user-showmap-right {
+  float: right;
+}
+.user-showmap .user-showmap-right .user-showmap-right-top {
+  width: 290rpx;
+  height: 200rpx;
+}
+.user-showmap .user-showmap-right .user-showmap-right-top image {
+  width: 100%;
+  height: 100%;
+}
+.user-showmap .user-showmap-right .user-showmap-right-bottom {
+  width: 290rpx;
+  height: 190rpx;
+  margin-top: 10rpx;
+}
+.user-showmap .user-showmap-right .user-showmap-right-bottom image {
+  width: 100%;
+  height: 100%;
+}
+.user-video {
+  position: relative;
+  width: 50%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.user-video image {
+  width: 100%;
+  height: 686rpx;
+}
+.pause {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -40rpx;
+  margin-top: -40rpx;
+}
+.pause:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAclBMVEUAAAAAAAAAAAAAAAAAAAAAAAD4+PgAAAAAAAAAAAD7+/v+/v709PTu7u7l5eXT09PMzMyGhoZGRkYpKSkAAAAAAAD9/f26urrb29ujo6MAAAD29vbW1tbJycmlpaVpaWlnZ2dlZWX9/f35+fm8vLz///9PauYHAAAAJXRSTlMAMyYvDgbiKyMV7v3Twq+Qh1ZBOh4Z9nWaZBPYlIVmS0pJ+OZ2qQL2gQAAAQlJREFUSMfdlskOgzAMRBsDCUtbui90X/L/v1iTVhr1aCP5wFy48BTES5yZjCMdZRl1KrQglxJyBZzYlI2YrZhq/eu85meWyxduI8dfHacsRHDmnI8p81W/eCWBGYi/1HvHoUIDc2a3Ht/q4LhbwJoU5kyXsCaGY3OANSnM8UdYk8KwpoJhTQbD2h3WpDCsaWBYU8GwpoJhTQPDmgqGNRkMaw9Yk8GwRgoY1kgJx6blF3MhjFxYmRo+OReMYXw2Dflh3QBV5YBNUtpuTxwM0yOJYWA5hjAATUcvhr7pdQM/plcs/BjXiif8WFap+v31I6qP9Z8fk+KKyuxRmS3KOmj4ESenEKiajDofxduexazVe00AAAAASUVORK5CYII=);
+  background-size: contain;
+}
+

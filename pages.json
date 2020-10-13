@@ -1,17 +1,17 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-  {
-  	"path": "pages/carFans/carFans",
-  	"style": {
-  		"navigationBarTitleText": "懂车帝"
-  	}
-  },
-  {
-  	"path": "pages/onlineCar/onlineCar",
-  	"style": {
-  		"navigationBarTitleText": "懂车帝"
-  	}
-  },
+		{
+			"path": "pages/carFans/carFans",
+			"style": {
+				"navigationBarTitleText": "懂车帝"
+			}
+		},
+		{
+			"path": "pages/onlineCar/onlineCar",
+			"style": {
+				"navigationBarTitleText": "懂车帝"
+			}
+		},
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -21,34 +21,43 @@
 
 
 	],
-  "tabBar": {
-      "color": "#0C0C0C",
-      "selectedColor": "#FCE41C",
-      "borderStyle": "black",
-      "backgroundColor": "#ffffff",
-      "list": [{
-          "pagePath": "pages/index/index",
-          "iconPath": "static/img/home.png",
-          "selectedIconPath": "static/img/home-select.png",
-          "text": "首页"
-      }, {
-          "pagePath": "pages/onlineCar/onlineCar",
-          "iconPath": "static/img/myCar.png",
-          "selectedIconPath": "static/img/myCar-select.png",
-          "text": "选车"
-      }, {
-          "pagePath": "pages/carFans/carFans",
-          "iconPath": "static/img/circle.png",
-          "selectedIconPath": "static/img/circle-select.png",
-          "text": "车友圈"
-      }
-      ]
-  },
+	"tabBar": {
+		"color": "#0C0C0C",
+		"selectedColor": "#FCE41C",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/home-select.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/onlineCar/onlineCar",
+			"iconPath": "static/img/myCar.png",
+			"selectedIconPath": "static/img/myCar-select.png",
+			"text": "选车"
+		}, {
+			"pagePath": "pages/carFans/carFans",
+			"iconPath": "static/img/circle.png",
+			"selectedIconPath": "static/img/circle-select.png",
+			"text": "车友圈"
+		}]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "懂车帝",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
-    // "navigationStyle":"custom"
+		// "navigationStyle":"custom"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
 	}
 }

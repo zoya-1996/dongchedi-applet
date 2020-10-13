@@ -132,7 +132,7 @@
             height:290upx;
             border-radius: 10upx;
       // 导航
-      .navigation  
+		.navigation  
         display :flex;
         margin-top :20upx;
         justify-content: space-around;
